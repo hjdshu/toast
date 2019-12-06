@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "name": "toast",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "hjdshu",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
